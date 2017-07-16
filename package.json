@@ -1,0 +1,11 @@
+{
+  "name": "opportunity_banker",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pg": "^6.4.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
