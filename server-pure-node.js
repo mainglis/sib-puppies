@@ -2,9 +2,9 @@ var http = require('http');
 var url = require('url');
 var pg = require("pg");
 
-var conString = "pg://maryashton@localhost:5432/puppies";
+var connectionString = "pg://maryashton@localhost:5432/puppies";
 
-var client = new pg.Client(conString);
+var client = new pg.Client(connectionString);
 client.connect();
 
 http.createServer(function (req, res) {

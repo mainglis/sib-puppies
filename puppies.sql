@@ -13,4 +13,4 @@ CREATE TABLE pups (
 );
 
 INSERT INTO pups (name, breed, age, sex, photo)
-  VALUES ('Tyler', 'Retriever', 3, 'M', 'http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-1.jpg');
+  VALUES ('Tyler', 'Pug', 3, 'M', 'http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-1.jpg');
