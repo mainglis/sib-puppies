@@ -39,9 +39,6 @@ app.get('/puppies', (req, res, next) => {
 
 // GET SPECIFIC PUPPY
 
-// ADD NEW PUPPY
-
-// UPDATE PUPPY
-
-// DELETE
-
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!')
+})
